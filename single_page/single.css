@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body {
+    font-family: "League Spartan", sans-serif;
+}
+
+nav {
+    width: 100%;
+    height: 80px;
+    background-color: #00000033;
+    box-sizing: border-box;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+}
+
+header img {
+    width: 1519px;
+}
+
+.info {
+    width: 530px;
+    height: 315px;
+    position: relative;
+    bottom: 462px;
+    left: 84px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+    left: 35%;
+}
+
+.p_div {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 11.72px;
+    color: #fff;
+    height: 27px;
+    width: 107px;
+    background-color: #FFFFFF26;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.info h1 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 46.08px;
+    color: #fff;
+}
+
+.info p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #e5e5e5a4;
+}
+
+.loading {
+    height: 20px;
+    width: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #ffffff6b;
+}
+
+#active {
+    background-color: #fff;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 22.4px;
+    color: #F8F9FA;
+    margin-left: 30px;
+}
+
+.navbar_items {
+    width: 500px;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+
+#i {
+    color: #E5E5E5;
+    font-size: 20px;
+    margin: 6px;
+    cursor: pointer;
+}
+
+.navbar_items a {
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 14.06px;
+    color: #E5E5E5;
+}
+
+.stick {
+    color: #fff;
+    margin-bottom: 7px;
+}
+
+.navbar_items a:hover {
+    color: #D4A373;
+    transition: 0.2s all;
+}
+
+section {
+    width: 90%;
+    margin: -200px auto;
+}
+
+section h1 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 46.08px;
+    text-align: left;
+    color: rgba(73, 80, 87, 1);
+    margin-left: 10px;
+}
+
+.spn {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #fff;
+}
+
+#section1 {
+    height: 500px;
+    width: 70%;
+    margin-left: 140px;
+    display: flex;
+    justify-content: space-between;
+}
+
+h6 {
+    margin-bottom: 450px;
+    display: inline-block;
+}
+
+.h11 {
+    color: #D4A373;
+    margin: 40px 0;
+}
+
+#bold {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #495057;
+}
+
+.info3 {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+}
+
+.minidivs {
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    width: 200px;
+}
+
+#section3 {
+    width: 90%;
+    height: 100px;
+    position: absolute;
+}
+
+.xazi {
+    width: 64%;
+    border: 1px solid gray;
+    margin: 300px auto;
+    margin-left: 22%;
+}
+
+.card h2 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: left;
+    color: #495057;
+    margin: 7px 0;
+}
+.card p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #6C757D;
+}
+
+.section3 {
+    height: 450px;
+    width: 90%;
+    margin-bottom: 100px;
+}
+
+.section3_cards_div {
+    height: 350px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.edit {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 46.08px;
+    text-align: left;
+    color: #495057;
+}
+
+.kk {
+    position: relative;
+    top: -200px;
+    left: 36px;
+}
+
+.kk span {
+    color: #fff;
+}
+
+.kk h2 {
+    color: #fff;
+}
+
+.kk p {
+    color: #fff;
+}
+
+.kk {
+    width: 300px;
+}
+
+#ftid {
+    width: 100%;
+}
+
+.infosec2 span,
+p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    color: #e5e5e5b2;
+    margin-top: 30px;
+}
+
+.infosec2 h2 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 46.08px;
+    text-align: center;
+    margin-top: 19px;
+}
